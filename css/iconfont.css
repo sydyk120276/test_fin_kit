@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?j73rxz');
+  src:  url('../fonts/icons.eot?j73rxz#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?j73rxz') format('truetype'),
+    url('../fonts/icons.woff?j73rxz') format('woff'),
+    url('../fonts/icons.svg?j73rxz#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::after, [class*=" _icon-"]::after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  border-radius: 50%;
+  padding: 10px;
+  background: #EFF9FF;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-icon_Activity::after {
+  content: "\e900";
+  color: #0962e8;
+}
+._icon-icon_Filter::after {
+  content: "\e901";
+  color: #0962e8;
+}
+._icon-icon_interface::after {
+  content: "\e902";
+  color: #0962e8;
+}
+._icon-icon_Setting::after {
+  content: "\e903";
+  color: #0962e8;
+}
